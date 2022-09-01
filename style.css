@@ -1,0 +1,288 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+nav{
+    width: 100%;
+    height: 80px;
+    border: 1px solid gray;
+    display: flex;
+    align-items: center;
+    padding: 0 2%;
+    position: sticky;
+    z-index: 4;
+}
+nav img{
+    width: 100px;
+    height: 100px;
+}
+nav span{
+    font-size: 45px;
+    font-weight: 300;
+    margin-left: -25px;
+}
+.inp{
+    text-indent: 10px;
+    margin-left: 10px;
+    height: 40px;
+    width: 60%;
+    font-size: 17px;
+    border: 1px solid rgba(0, 0, 0, 0.486);
+    background: rgba(0, 0, 0, 0.144);
+    z-index: 1;
+}
+nav i{
+    font-size: 22px;
+    z-index: 2;
+    margin-left: -30px;
+}
+.icons{
+    display: flex;
+    justify-content: space-between;
+}
+.icons i{
+    margin-left: 40px;
+    font-size: 22px;
+}
+.icon2{
+    display: none;
+}
+.menu{
+    width: 100%;
+    height: 40px;
+    border: 1px solid gray;
+    padding-top: 10px;
+}
+.collection{
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+}
+.item{
+    font-size: 16px;
+}
+.banner{
+    width: 100%;
+    height: 500px;
+    background: url("./img/08082022-HP-A1-INTL-1400x550.jpg") no-repeat center/cover;
+}
+.banner img{
+    width: 100%;
+    height: 100%;
+}
+.limit{
+    text-align: center;
+    margin-top: 20px;
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.box{
+    width: 16%;
+}
+.container1{
+    display: flex;
+    justify-content: space-evenly;
+}
+.banner3{
+    width: 100%;
+    height: 500px;
+    margin-top: 10px;
+    background: url("https://ak1.ostkcdn.com/img/mxc/08082022-SB-LivingRoomFurniture-Desktop.jpg?imwidth=1920") no-repeat center/cover;
+}
+.banner3 img{
+    width: 100%;
+    height: 100%;
+}
+.banner img{
+    width: 100%;
+    height: 100%;
+}
+.fresh{
+    text-align: center;
+    margin-top: 50px;
+}
+.banner4{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    place-items: center;
+    margin-top: 30px;
+}
+.banner4 img{
+    margin-top: 50px;
+}
+.banner5{
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    place-items: center;
+}
+.summer{
+    text-align: center;
+    margin-top: 40px;
+}
+.banner6{
+    width: 100%;
+    margin: 30px auto;
+    display: flex;
+    overflow-x: auto;
+}
+.box1{
+    min-width: 400px;
+    width: 300px;
+    height: 400px;
+    margin: 10px;
+}
+.banner6 p{
+    font-size: 20px;
+    line-height: 23px;
+    width: 360px;
+}
+.bold{
+    font-size: 20px;
+    font-weight: 800;
+}
+.banner8{
+    width: 100%;
+    height: 600px;
+    background: url("https://ak1.ostkcdn.com/img/mxc/07252022-SB-DormEssentials-Desktop.jpg?imwidth=1920") no-repeat center/cover;
+    margin: 40px auto;
+}
+.banner8 img{
+    width: 100%;
+    height: 100%;
+}
+.banner9{
+    display: flex;
+    width: 100%;
+    margin-top: 30px;
+}
+.mini_box{
+    width: 25%;
+    height: auto;
+    display: grid;
+    place-items: center;
+    margin-left: 8px;
+}
+.mini_box img{
+    width: 100%;
+    height: 100%;
+}
+.banner10{
+    width: 100%;
+    height: 400px;
+    margin-top: 50px;
+}
+.banner_image1{
+    width: 100%;
+    height: 100%;
+    background: url("https://ak1.ostkcdn.com/img/mxc/030822-RIUpdate-Dsk.jpg?imwidth=1920") no-repeat center/cover;
+    padding-top: 30px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    line-height: 50px;
+}
+.banner_text p{
+    font-size: 17px;
+}
+.banner11{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 40px;
+}
+.banner_mini{
+    width: 33%;
+    height: 100%;
+    margin-left: 10px;
+}
+.banner_mini img{
+    width: 100%;
+    height: 100%;
+}
+.banner_mini p{
+    margin-left: 30px;
+    line-height: 25px;
+}
+.btn{
+    width: 150px;
+    height: 40px;
+    background-color: rgba(0, 0, 0, 0.753);
+    color: white;
+    border-radius: 6px;
+    margin: auto;
+    display: block;
+    margin-top: 120px;
+    font-size: 17px;
+    border: none;
+}
+.baner{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: space-evenly;
+}
+.baner p a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    text-align: center;
+    display: block;
+    line-height: 50px;
+}
+.line{
+    width: 100%;
+    height: 3px;
+    background: black;
+    margin-top: 30px;
+}
+.footer{
+    width: 100%;
+    height: 450px;
+    background-color: rgba(0, 0, 0, 0.623);
+    margin-top: 40px;
+    padding: 0 10%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.footer_item{
+    width: 25%;
+    height: 100%;
+    margin-left: 5px;
+    padding-top: 90px;
+    padding-left: 15px;
+    line-height: 40px;
+    color: #fff;
+    font-size: 13px;
+}
+.mini_footer{
+    width: 100%;
+    height: 100px;
+    background: rgba(0, 0, 0, 0.829);
+    padding-top: 30px;
+    color: #fff;
+    font-size: 13px;
+    line-height: 24px;
+    display: flex;
+    padding-left: 50px;
+}
+.the_smallest{
+    width: 50%;
+    height: 100%;
+    margin-left: 250px;
+    display: flex;
+    padding-top: 20px;
+}
+.the_smallest img{
+    width: 35px;
+    height: 25px;
+}
+.the_smallest p{
+    margin-left: 50px;
+}
